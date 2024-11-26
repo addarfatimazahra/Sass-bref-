@@ -1,0 +1,19 @@
+body{
+    background-image: url(image.jpg);
+    
+    
+}
+
+nav {
+    background-color: #d1baaa; 
+    padding: 15px; 
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+    float: right; 
+}
