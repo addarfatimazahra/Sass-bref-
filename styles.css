@@ -5,17 +5,23 @@ body{
     
     
 }
+.nav img {
+    height: 50px; 
+    width: auto; 
+}
 
-nav {
+.nav {
     background-color: #d1baaa; 
     padding: 15px; 
     overflow: hidden;
 }
 
-nav a {
+
+.nav a {
     color: white;
     text-decoration: none; 
     margin: 0 15px; 
+
     font-weight: bold; 
     float: right; 
 }
