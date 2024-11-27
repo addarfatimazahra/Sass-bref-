@@ -118,3 +118,42 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.stylees {
+    color:rgb(12, 12, 11);
+    
+}
+.slasse{
+    color: bisque;
+}
+
+.slasse {
+    margin: 10px;
+    gap: 10px;
+    padding: 5px;
+
+    
+   
+}
+
+.slasse {
+    
+    
+    padding: 1rem 0;
+    text-align: center;
+
+}
+.slasse {
+    background-color: rgba(61, 36, 7, 0.5);
+    padding: 20px;
+    margin: 200px;
+    border-radius: 10px;
+    
+   
+}
+.stylees {
+   text-align: center;
+   padding: 1rem 0;
+
+}
+
