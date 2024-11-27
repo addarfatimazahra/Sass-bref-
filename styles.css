@@ -1,48 +1,92 @@
-body{
-    background-image: url(image.jpg);
+html, body {
+    height: 100%; 
     margin: 0;
-    padding-bottom: 60px;
-    
-    
 }
+
+body {
+    background-image: url(image.jpg);
+    padding-bottom: 60px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
 .nav img {
     height: 50px; 
-    width: auto; 
+    width: 150px; 
 }
 
 .nav {
     background-color: #d1baaa; 
     padding: 15px; 
-    overflow: hidden;
+   
 }
-
 
 .nav a {
     color: white;
     text-decoration: none; 
     margin: 0 15px; 
-
     font-weight: bold; 
     float: right; 
 }
 
-footer {
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.prod {
     background-color: beige;
-    color: black;
-    text-align: center;
-    padding: 0.5rem 0;
-    font-size: o.8rem;
     
+    padding: 10px;
+    width: 300px;
+   
+   
+
+    text-align: center;
+    text-decoration: dotted;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
 }
+
+.prod img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.prod ul {
+    list-style:disc;
+    padding: 0; 
+}
+
+.prod li {
+    margin: 10px 10px;
+}
+
+
+.container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+}
+
+footer {
+    background-color: #dab39455;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    margin-top: auto; 
+}
+
+footer p {
+    margin: 5px 0;
+}
+
 footer a {
-    color: black;
+    color: gold;
     text-decoration: none;
+    margin: 0 10px;
 }
+
 footer a:hover {
     text-decoration: underline;
-   
 }
