@@ -91,34 +91,6 @@ body {
     gap: 20px;
    
 }
-
-
-footer {
-    background-color: #dab39455;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    padding-top: 20px;
-    width: 100%;
-    font-size: 16px;
-    position: relative;
-    margin-top: auto; 
-}
-
-footer p {
-    margin: 5px 0;
-}
-
-footer a {
-    color: gold;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
 .stylees {
     color:rgb(12, 12, 11);
     
@@ -156,4 +128,62 @@ footer a:hover {
    padding: 1rem 0;
 
 }
+.button {
+    text-align: center;
+    margin: 20px 0;
+}
 
+.button button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button button:hover {
+    background-color: #ff4f3d;
+    transform: scale(1.05);
+}
+
+.button button:focus {
+    outline: none;
+}
+
+
+footer {
+    background-color: #dab39455;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    margin-top: auto;
+}
+
+footer p {
+    color: white;
+    margin: 5px 0;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+}
