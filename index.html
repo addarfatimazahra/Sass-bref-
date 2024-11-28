@@ -37,6 +37,8 @@
                         acide hyaluronique</li><br>
                     <li>prix:400dh</li><br>
                     <li>disponibilité:en stocke</li><br>
+                    <input type="radio" name="produit" value="produit1" id="produit1" checked>
+                    <label for="produit1">Sélectionner ce produit</label>
 
                 </ul>
                 <div class="button1">
@@ -57,6 +59,8 @@
                         émollients des agents filmogènes et parfois des parfums</li><br>
                     <li>prix:300dh</li><br>
                     <li>disponibilité:en stocke</li><br>
+                    <input type="radio" name="produit" value="produit2" id="produit2">
+                    <label for="produit2">Sélectionner ce produit</label>
 
                 </ul>
                 <div class="button1">
@@ -78,6 +82,8 @@
                     <br>
                     <li>prix: 400dh</li><br>
                     <li>disponibilité:en stocke</li><br>
+                    <input type="radio" name="produit" value="produit3" id="produit3">
+                    <label for="produit3">Sélectionner ce produit</label>
 
                 </ul>
                 <div class="button1">
@@ -89,7 +95,7 @@
 
 
         <div class="stylees" id="formulaire">
-            <form>
+            <form id="form-panier">
                 <h2> Ajouter en panier : </h2>
                 <br>
                 <div class="slasse">
@@ -104,12 +110,13 @@
                     <li><label for="Numéro tele">Entre your Numéro :</label></li>
                     <input type="number" name="Numéro tele" id="Numéro tele"><br>
                     <li><label for="Quantite">la Quantite :</label></li>
-                    <input type="number" name="Quantite" id="Quantite"><br>
-                    <li><span id="total-price">Prix Totale : </span> </li>
-                    <input type="number" name="Quantite" id="Quantite"><br>
+                    <input type="number" name="Quantite" id="Quantite" min="1"><br>
+                    <li><span id="total-price">Prix Totale : 0 dh </span> </li>
+                    
+                    
 
-                    <li><span id="total-price">Prix Totale : </span> </li> <br>
-                    <input type="text" name="total-price" id="total-price">
+
+
                     <br>
                     <div class="form-actions"><br>
 
@@ -117,6 +124,7 @@
                     </div>
                 </div>
             </form>
+            <script src="index.js"></script>
         </div>
         <div class="tableau">
             <h2> listes des produits</h2>
@@ -147,6 +155,7 @@
                 <a href="/instgram" title="instgram"><img src="instagram.png" alt="instgram"></a>
                 <a href="/tiktok" title="tiktok"><img src="tik-tok.png" alt="tiktok"></a>
                 <p>Contactez-nous:<a href="Tel: +212560034606"><img src="tele.png" alt="0560034606"></a></p>
+                <p>&copy; 2024 ShineBeauty. Tous droits réservés.</p>
 
             </footer>
 
