@@ -10,6 +10,7 @@ body {
     flex-direction: column; 
 }
 
+
 .nav img {
     height: 50px; 
     width: 150px; 
@@ -65,32 +66,6 @@ body {
     flex-direction: column; 
 }
 
-footer {
-    background-color: #dab39455;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    padding-top: 20px;
-    width: 100%;
-    font-size: 16px;
-    position: relative;
-    margin-top: auto; 
-}
-
-footer p {
-    margin: 5px 0;
-}
-
-footer a {
-    color: gold;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
 .stylees {
     color:rgb(12, 12, 11);
     
@@ -120,12 +95,72 @@ footer a:hover {
     padding: 20px;
     margin: 200px;
     border-radius: 10px;
-    
+    margin-top: 0;
+    margin-bottom: 15px;
    
 }
-.stylees {
-   text-align: center;
-   padding: 1rem 0;
 
+.stylees {
+      text-align: center;
+       margin-bottom: 0px;
+
+      
+    
 }
+button {
+    margin-top: 10px;
+    background-color: bisque;
+    color: brown;
+    border: #d1baaa 10px;
+    cursor: pointer;
+
+  }
+  button:hover {
+    background-color: whitesmoke;
+  }
+  
+
+  input, button {
+    width: 30%;
+    padding: 4px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  label {
+    margin-bottom: 1px;
+    
+  }
+ 
+  
+  
+
+
+  
+footer {
+    background-color: #dab39455;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    margin-top: auto; 
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 
