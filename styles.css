@@ -13,6 +13,7 @@ body {
 }
 /*nav*/
 
+
 .nav img {
     height: 50px; 
     width: 150px; 
@@ -91,6 +92,9 @@ body {
     gap: 20px;
    
 }
+
+
+
 .stylees {
     color:rgb(12, 12, 11);
     
@@ -120,16 +124,50 @@ body {
     padding: 20px;
     margin: 200px;
     border-radius: 10px;
-    
+    margin-top: 0;
+    margin-bottom: 15px;
    
 }
+
 
 
 .stylees {
    text-align: center;
    padding: 1rem 0;
-
 }
+
+
+button {
+    margin-top: 10px;
+    background-color: bisque;
+    color: brown;
+    border: #d1baaa 10px;
+    cursor: pointer;
+
+  }
+ button:hover {
+    background-color: whitesmoke;
+  }
+  
+
+input, button {
+    width: 30%;
+    padding: 4px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+label {
+    margin-bottom: 1px;
+    
+  }
+ 
+  
+  
+
+
+  
+
 .button {
     text-align: center;
     margin: 20px 0;
@@ -169,19 +207,21 @@ footer {
 
 footer p {
     color: white;
-    margin: 5px 0;
 }
+
 
 footer a {
     color: gold;
     text-decoration: none;
     margin: 0 10px;
     display: inline-block;
+
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
 
 footer img {
     width: 24px;
@@ -189,3 +229,4 @@ footer img {
     vertical-align: middle;
     margin-left: 5px;
 }
+
