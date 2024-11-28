@@ -15,8 +15,8 @@ body {
 
 
 .nav img {
-    height: 50px; 
-    width: 150px; 
+    height: auto; 
+    width: 100px; 
 }
 
 .nav {
@@ -71,6 +71,7 @@ body {
     flex-direction: column; 
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
    
 }
 
@@ -266,6 +267,7 @@ footer p {
 
 footer .social-links {
     display: flex; 
+   
     justify-content: center; 
     margin: 10px 0px;
 }
@@ -284,9 +286,20 @@ footer a:hover {
 }
 
 footer img {
-    width: 24px;
-    height: auto;
-  margin-left: 5px;
+  width: 24px;
+  height: auto;
+  margin-left: 1px;
+  margin-right: 10px; 
   
    
+}
+
+@media (max-width: 768px) {
+    .prod, .para2, .para3 {
+        width: 100%; 
+    }
+    
+    input, button {
+        width: 100%; 
+    }
 }
