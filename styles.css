@@ -218,31 +218,30 @@ button {
         text-align: left;
         color: white;
     }
-/* Cacher le bouton radio par défaut */
+
 input[type="radio"] {
-    display: none; /* Cacher le bouton radio par défaut */
+    display: none; 
 }
 
-/* Style du label associé au bouton radio */
 label {
     display: inline-block;
     padding: 10px 15px;
     margin: 5px;
-    border: 2px solid #ccc; /* Bordure par défaut */
-    border-radius: 5px; /* Coins arrondis */
-    cursor: pointer; /* Curseur en forme de main */
-    transition: background-color 0.3s, border-color 0.3s; /* Transition douce */
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; 
 }
 
-/* Style lorsque le bouton radio est sélectionné */
+
 input[type="radio"]:checked + label {
-    background-color: #f0f0f0; /* Couleur de fond pour le bouton sélectionné */
-    border-color: #007bff; /* Couleur de bordure pour le bouton sélectionné */
+    background-color: #f0f0f0; 
+    border-color: #007bff; 
 }
 
-/* Style au survol du label */
+
 label:hover {
-    background-color: #e0e0e0; /* Couleur de fond au survol */
+    background-color: #e0e0e0; 
 }
  
 
@@ -255,9 +254,9 @@ footer {
     font-size: 16px;
     position: relative;
     margin-top: auto;
-    display: flex; /* Utilisation de flexbox */
-    flex-direction: column; /* Aligne les éléments en colonne */
-    align-items: center; /* Centre horizontalement les éléments */
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
 }
 
 footer p {
@@ -268,13 +267,13 @@ footer p {
 footer .social-links {
     display: flex; 
     justify-content: center; 
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 
 footer a {
     color: gold;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0px 10px;
    
    
     
