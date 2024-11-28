@@ -1,5 +1,5 @@
 const prixProduits = {
-    produit1: 400,
+    produit1: 350,
     produit2: 400,
     produit3: 400
 };
