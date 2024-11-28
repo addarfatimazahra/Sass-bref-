@@ -10,18 +10,14 @@
 <body>
     <div class="container">
 
-
         <div class="nav">
             <nav>
                 <img class="nav img" src="shine BeauTy_processed.png" alt="ShineBeauty">
                 <a href="/contacts">contact</a>
                 <a href="/products">produits</a>
                 <a href="/home">Acceuil</a>
-
             </nav>
         </div>
-
-
 
         <div class="paragraphe">
             <div class="prod">
@@ -30,69 +26,58 @@
                     spécialement formulé pour offrir une couvrance impeccable tout
                     en préservant l'éclat naturel de votre peau</p>
                 <ul>
-                    <li>taille:50ml</li><br>
+                    <li>taille:50ml</li>
                     <li>ingrédients:eau, silicones, huiles végétales, pigments, émollients, agents matifiants,
-                        conservateurs
-                        et
-                        acide hyaluronique</li><br>
-                    <li>prix:400dh</li><br>
-                    <li>disponibilité:en stocke</li><br>
+                        conservateurs et acide hyaluronique</li>
+                    <li>prix:400dh</li>
+                    <li>disponibilité:en stock</li>
                     <input type="radio" name="produit" value="produit1" id="produit1" checked>
                     <label for="produit1">Sélectionner ce produit</label>
-
                 </ul>
                 <div class="button1">
                     <button onclick="document.getElementById('formulaire').scrollIntoView();">Ajouter</button>
                 </div>
-
-
-
             </div>
+
             <div class="para2">
                 <img src="image5.jpg" alt="ShineBeauty">
                 <p>Découvrez notre mascara innovant, conçu pour offrir une définition exceptionnelle et un volume
                     spectaculaire à vos cils.</p>
                 <ul>
-                    <li>taille:30ml</li><br>
-                    <li>Les ingrédients typiques d'un mascara incluent de l'eau, des cires
-                        , des pigments , des agents épaississants, des conservateurs, des
-                        émollients des agents filmogènes et parfois des parfums</li><br>
-                    <li>prix:300dh</li><br>
-                    <li>disponibilité:en stocke</li><br>
+                    <li>taille:30ml</li>
+                    <li>Les ingrédients typiques d'un mascara incluent de l'eau, des cires,
+                        des pigments, des agents épaississants, des conservateurs, des
+                        émollients, des agents filmogènes et parfois des parfums</li>
+                    <li>prix:400dh</li>
+                    <li>disponibilité:en stock</li>
                     <input type="radio" name="produit" value="produit2" id="produit2">
                     <label for="produit2">Sélectionner ce produit</label>
-
                 </ul>
                 <div class="button1">
                     <button onclick="document.getElementById('formulaire').scrollIntoView();">Ajouter </button>
                 </div>
-
-
             </div>
+
             <div class="para3">
                 <img src="image7.jpg" alt="ShineBeauty">
                 <p>Plongez dans l'univers de notre rouge à lèvres luxueux, enrichi en pigments vibrants pour une couleur
                     éclatante et une tenue longue durée</p>
                 <ul>
-                    <li>taille:30ml</li><br>
+                    <li>taille:30ml</li>
                     <li>Les ingrédients typiques d'un rouge à lèvres incluent des huiles , des
                         beurres , des cires , des pigments colorés, des
                         émollients, des conservateurs, des antioxydants (comme la vitamine E) et parfois des fragrances
                     </li>
-                    <br>
-                    <li>prix: 400dh</li><br>
-                    <li>disponibilité:en stocke</li><br>
+                    <li>prix: 400dh</li>
+                    <li>disponibilité:en stock</li>
                     <input type="radio" name="produit" value="produit3" id="produit3">
                     <label for="produit3">Sélectionner ce produit</label>
-
                 </ul>
                 <div class="button1">
                     <button onclick="document.getElementById('formulaire').scrollIntoView();">Ajouter</button>
                 </div>
-
             </div>
         </div>
-
 
         <div class="stylees" id="formulaire">
             <form id="form-panier">
@@ -100,32 +85,26 @@
                 <br>
                 <div class="slasse">
                     <li><label for="name">Entre your name :</label></li>
-                    <input type="text" name="name" id="name"><br>
+                    <input type="text" name="name" id="name" required><br>
                     <li><label for="prénom">Entre your prénom :</label></li>
-                    <input type="text" name="prénom" id="prénom"><br>
+                    <input type="text" name="prénom" id="prénom" required><br>
                     <li><label for="email">Entre your Email :</label></li>
-                    <input type="email" name="Email" id="Email"><br>
+                    <input type="email" name="Email" id="Email" required><br>
                     <li><label for="Adress">Entre your Adress : </label></li>
-                    <input type="text" name="Adress" id="Adress"><br>
+                    <input type="text" name="Adress" id="Adress" required><br>
                     <li><label for="Numéro tele">Entre your Numéro :</label></li>
-                    <input type="number" name="Numéro tele" id="Numéro tele"><br>
+                    <input type="number" name="Numéro tele" id="Numéro tele" required><br>
                     <li><label for="Quantite">la Quantite :</label></li>
-                    <input type="number" name="Quantite" id="Quantite" min="1"><br>
-                    <li><span id="total-price">Prix Totale : 0 dh </span> </li>
-                    
-                    
-
-
-
+                    <input type="number" name="Quantite" id="Quantite" min="1" required><br>
+                    <li><span id="total-price">Prix Totale : 0 dh </span></li>
                     <br>
-                    <div class="form-actions"><br>
-
-                        <button type="submit">Ajouter en panier</button>
+                    <div class="form-actions">
+                        <button type="submit">Ajouter en panier</button>
                     </div>
                 </div>
             </form>
-            <script src="index.js"></script>
         </div>
+
         <div class="tableau">
             <h2> listes des produits</h2>
             <table>
@@ -134,36 +113,29 @@
                         <th>nom</th>
                         <th>prénom</th>
                         <th>email</th>
-                        <th>adrrese</th>
-                        <th>num de tél </th>
-                        <th>Quantité commandée </th>
-                        <th>Total de la commande </th>
+                        <th>adresse</th>
+                        <th>num de tél</th>
+                        <th>Quantité commandée</th>
+                        <th>Total de la commande</th>
+                        <th>Total </th>
                     </tr>
                 </thead>
-                <tbody id="liste ordonner ">
-
+                <tbody id="liste-ordonner"> 
                 </tbody>
             </table>
-
         </div>
 
+        <footer>
+            <p>Adresse : hakam 2, Rue 12, N:5</p>
+            <a href="/facebook" title="Facebook"><img src="facebook.png" alt="Facebook"></a>
+            <a href="/instgram" title="instgram"><img src="instagram.png" alt="instagram"></a>
+            <a href="/tiktok" title="tiktok"><img src="tik-tok.png" alt="tiktok"></a>
+            <p>Contactez-nous:<a href="Tel: +212560034606"><img src="tele.png" alt="0560034606"></a></p>
+            <p>&copy; 2024 ShineBeauty. Tous droits réservés.</p>
+        </footer>
 
-        <div>
-            <footer>
-
-                <p>Adresse : hakam 2, Rue 12, N:5 </p>
-                <a href="/facebook" title="Facebook"><img src="facebook.png" alt="Facebook"></a>
-
-                <a href="/instgram" title="instgram"><img src="instagram.png" alt="instgram"></a>
-                <a href="/tiktok" title="tiktok"><img src="tik-tok.png" alt="tiktok"></a>
-                <p>Contactez-nous:<a href="Tel: +212560034606"><img src="tele.png" alt="0560034606"></a></p>
-                <p>&copy; 2024 ShineBeauty. Tous droits réservés.</p>
-
-            </footer>
-
-        </div>
-
-
+        <script src="index.js"></script> <!-- Assurez-vous que le script est bien ici -->
+    </div>
 </body>
 
 </html>
