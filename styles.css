@@ -123,6 +123,8 @@ body {
     
    
 }
+
+
 .stylees {
    text-align: center;
    padding: 1rem 0;
@@ -134,7 +136,7 @@ body {
 }
 
 .button button {
-    background-color: #ff6f61;
+    background-color: #e38418;
     color: white;
     border: none;
     border-radius: 5px;
@@ -145,7 +147,7 @@ body {
 }
 
 .button button:hover {
-    background-color: #ff4f3d;
+    background-color: #d4962ab6;
     transform: scale(1.05);
 }
 
