@@ -27,7 +27,7 @@ function ajouterDonneesAuTableau(prixUnitaire, quantite, produit, total) {
     const adresse = document.getElementById('Adress').value;
     const numero = document.getElementById('Numéro tele').value;
 
-    // Vérification du numéro de téléphone
+    
     if (numero.length > 10) {
         alert('Le numéro de téléphone ne doit pas dépasser 10 chiffres.');
         return;
@@ -45,11 +45,11 @@ function ajouterDonneesAuTableau(prixUnitaire, quantite, produit, total) {
         <td>${total} DH</td> <!-- Utiliser 'total' directement -->
     `;
     
-    document.getElementById('liste-ordonner').appendChild(newLigne); // Corrigé l'ID du tableau
+    document.getElementById('liste-ordonner').appendChild(newLigne);
     document.getElementById('form-panier').reset(); 
 }
 
-// Mise à jour du total lors de la saisie de la quantité
+
 document.getElementById('Quantite').addEventListener('input', function() {
     const quantiteInput = this.value;
     const produitSelectionne = document.querySelector('input[name="produit"]:checked');
@@ -61,7 +61,7 @@ document.getElementById('Quantite').addEventListener('input', function() {
     }
 });
 
-// Écouteur d'événements pour le formulaire
+
 document.getElementById('form-panier').addEventListener('submit', function (event) {
     event.preventDefault();
     calculerPrixTotal();
